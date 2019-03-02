@@ -1,0 +1,52 @@
+body {
+	background-image: url("../images/background_catalog.jpg");
+	background-size: auto;
+	background-color: black;
+}
+
+td {
+	padding: 10px;
+	border-bottom: solid 1px black;
+	padding-right: 1em;
+}
+
+thead th {
+	text-align: center;
+	background-color: grey;
+}
+
+table {
+	background-color: darkgrey;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: grey;
+}
+
+.quicknav {
+	float: left;
+	height: 300px;
+	width: 200px;
+	border-radius: 15px;
+	background-color: #272b30;
+	padding-left: 15px;
+	margin-left: 15px;	
+}
+
+/* added from general to keep general a little neater */
+#quicknavbar {
+	margin: 5px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	list-style-type: none;
+}
+
+#quicknavbar>ul>li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	clear: both;
+}

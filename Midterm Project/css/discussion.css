@@ -1,0 +1,95 @@
+body {
+	background-image: url("../images/background_discussion.jpg");
+	background-size: auto;
+	color: black;
+}
+
+/* added from general to keep general a little neater */
+.main {
+	background-color: #272b30;
+	height: 80vh;
+	width: 80vw;
+	overflow: auto;
+	margin: 0px auto;
+	border-radius: 25px;
+	color: white;
+}
+
+.inputfield {
+	background-color: #576782;
+}
+
+.commentdiv {
+	margin: 30px auto;
+	width: 80%;
+	height: 100px;
+	text-align: center;
+}
+
+#commentlabel {
+	text-align: right;
+	display: inline;
+	vertical-align: center;
+	float: left;
+	clear: left;
+}
+
+#namelabel {
+	text-align: right;
+	display: inline;
+	float: left;
+	clear: left;
+}
+
+#nameinput {
+	width: 300px;
+	display: inline;
+	float: left;
+	text-align: left;
+}
+
+legend {
+	text-align: center;
+}
+
+textarea{
+	resize: none;
+	background-color: #576782;
+	height: 250px;
+	width: 300px;
+	float: left;
+	color: white;
+	display: inline;
+	clear: right;
+}
+
+fieldset {
+	text-align: center;
+}
+
+fieldset.comment {
+	text-align: left;
+	margin: 30px 0 0 30px;
+	border-bottom: 1px solid white;
+	width: 90%;
+}
+
+fieldset.comment>legend {
+	text-align: left;
+}
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+    padding-right: 30px;
+}
+
+input {
+  display: inline-block;
+  float: left;
+  text-align: left;
+  color: white;
+}

@@ -1,0 +1,9 @@
+body {
+	background-image: url("../images/background_index.jpg");
+	background-size: auto;
+}
+
+.panel {
+	margin-left: 2em;	
+}
+

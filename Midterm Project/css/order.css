@@ -1,0 +1,61 @@
+body {
+	background-image: url("../images/background_order.jpg");
+	background-size: auto;
+	color: black;
+}
+
+.main {
+	background-color: #272b30;
+	height: 80vh;
+	width: 80vw;
+	overflow: auto;
+	margin: 0px auto;
+	border-radius: 25px;
+	color: white;
+}
+
+#textinputs>label {
+	display: inline-block;
+	float: left;
+	clear: left;
+	text-align: right;
+	width: 90px;
+	padding-bottom: 5px;
+}
+
+#textinputs>input {
+	margin-left: 7px;
+	display: inline-block;
+	float: left;
+	clear: none;
+}
+
+#checkbox {
+	clear: left;
+}
+
+label {
+	clear: left;
+	display: inline;
+	float: left;
+}
+
+input {
+	float: left;
+	clear: left;
+	display: inline;
+}
+
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  display: block;
+}
+
+fieldset {
+	margin: 30px;
+}
