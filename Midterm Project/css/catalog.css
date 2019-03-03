@@ -1,52 +1,80 @@
 body {
-	background-image: url("../images/background_catalog.jpg");
-	background-size: auto;
-	background-color: black;
-}
-
-td {
-	padding: 10px;
-	border-bottom: solid 1px black;
-	padding-right: 1em;
-}
-
-thead th {
-	text-align: center;
-	background-color: grey;
-}
-
-table {
-	background-color: darkgrey;
-}
-
-tbody tr:nth-child(odd) {
-    background-color: grey;
+  background-image: url("../images/background_catalog.jpg");
+  background-size: auto;
+  background-color: black;
 }
 
 .quicknav {
-	float: left;
-	height: 300px;
-	width: 200px;
-	border-radius: 15px;
-	background-color: #272b30;
-	padding-left: 15px;
-	margin-left: 15px;	
+  float: left;
+  height: 300px;
+  width: 200px;
+  border-radius: 15px;
+  background-color: #272b30;
+  padding-left: 15px;
+  margin-left: 15px;
 }
+
+#newAddition {
+	background-image: url("../images/catalog_new.jpg");
+	background-size: 100%;
+	height: 600px;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 0;
+}
+
+#newAddition #newContent {
+	float: left;
+	color: white;
+	padding-left: 2em;
+}
+
+#classics {
+	text-align: center;
+	margin-bottom: 0;
+	padding: 1.5em;
+	padding-bottom: 0.5em;
+}
+
+aside {
+	padding: 0.5em;
+	
+}
+
+td {
+  padding: 10px;
+  border-bottom: solid 1px black;
+  padding-right: 1em;
+}
+
+thead th {
+  text-align: center;
+  background-color: grey;
+}
+
+table {
+  background-color: darkgrey;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: grey;
+}
+
 
 /* added from general to keep general a little neater */
 #quicknavbar {
-	margin: 5px;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	list-style-type: none;
+  margin: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  list-style-type: none;
 }
 
 #quicknavbar>ul>li {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	clear: both;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clear: both;
 }
