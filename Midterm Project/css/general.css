@@ -41,8 +41,9 @@ footer {
 	margin-bottom: 0;
 }
 
-.body {
-  margin: 30px;
+.row {
+	margin-left: 0;
+	margin-right: 0;
 }
 
 /*ul {
