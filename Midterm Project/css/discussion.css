@@ -21,7 +21,7 @@ body {
 
 .commentdiv {
 	margin: 30px auto;
-	width: 80%;
+	width: 50%;
 	height: 100px;
 	text-align: center;
 }
@@ -57,17 +57,14 @@ textarea{
 	background-color: #576782;
 	height: 250px;
 	width: 300px;
-	float: left;
 	color: white;
-	display: inline;
-	clear: right;
 }
 
 fieldset {
 	text-align: center;
 }
 
-fieldset.comment {
+/*fieldset.comment {
 	text-align: left;
 	margin: 30px 0 0 30px;
 	border-bottom: 1px solid white;
@@ -76,7 +73,7 @@ fieldset.comment {
 
 fieldset.comment>legend {
 	text-align: left;
-}
+}*/	
 
 label{
     display: inline-block;
@@ -93,3 +90,10 @@ input {
   text-align: left;
   color: white;
 }
+
+/*#submit {
+	display: flex;
+	vertical-align: center;
+	position: relative;
+	clear: left;
+}*/

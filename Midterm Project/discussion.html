@@ -40,17 +40,26 @@
 
 			<div class="commentdiv">
 				<form method="get" action="http://examples.funwebdev.com/process.php">
-					<fieldset>
+					<fieldset class = "form-group">
 						<legend>Add your opinion:</legend>
-						<label id="namelabel">Name:</label>
+						<!--<label id="namelabel">Name:</label>
 						<input type="text" placeholder = "Name" name = "nameinput" id = "nameinput" class = "inputfield"><br><br>
 					    <label id="commentlabel">Comment:</label>
-					    <textarea name = "commentarea"></textarea>
-					    <input type="submit" name="submit">
+					    <textarea name = "commentarea"></textarea><br>-->
+					    <div class="form-group">
+						    <label class="col-form-label" for="inputDefault">Name:</label>
+  							<input type="text" class="form-control" placeholder="John Smith" id="inputDefault">
+  						</div>
+  						<div class="form-group">
+						    <label for="commentTextarea">Comment:</label>
+						    <textarea class="form-control" id="commentTextarea" rows="3"></textarea>
+						</div>
+						    <button type="submit" class="btn btn-primary">Submit</button>
+						</div>		
 					</fieldset>
+
 				</form>
     		</div>
-    		
 		</div>
 	</main>
 </body>
