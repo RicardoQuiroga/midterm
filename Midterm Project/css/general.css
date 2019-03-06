@@ -4,6 +4,7 @@
   text-align: center;
   font-size: 100%;
   background-color: rgba(58, 66, 44, .8);
+  margin-bottom: 15px;
 }
 
 .head>h1 {
@@ -41,9 +42,15 @@ footer {
 	margin-bottom: 0;
 }
 
+<<<<<<< HEAD
 .row {
 	margin-left: 0;
 	margin-right: 0;
+=======
+.body {
+  margin: 30px;
+  display: float;
+>>>>>>> 6895ba4594731f0649cdb96f662b9584c11a7056
 }
 
 /*ul {

@@ -14,6 +14,12 @@ body {
 	color: white;
 }
 
+#textinputs {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
 #textinputs>label {
 	display: inline-block;
 	float: left;
@@ -28,10 +34,20 @@ body {
 	display: inline-block;
 	float: left;
 	clear: none;
+	color: black;
 }
 
-#checkbox {
-	clear: left;
+.form-check-input {
+	padding-right: 10px;
+}
+
+.columnGrouping {
+	display: flex;
+}
+
+.group {
+	flex: 50%;
+	padding: 10px;	
 }
 
 label {
@@ -58,4 +74,9 @@ ul {
 
 fieldset {
 	margin: 30px;
+}
+
+.form-control {
+	width: 80px;
+	height: 40px;
 }

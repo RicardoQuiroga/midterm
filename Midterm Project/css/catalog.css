@@ -4,6 +4,10 @@ body {
   background-color: black;
 }
 
+.head {
+  margin: 0;
+}
+
 .quicknav {
   float: left;
   height: 300px;
@@ -55,6 +59,7 @@ tbody tr:nth-child(odd) {
   background-color: grey;
 }
 
+<<<<<<< HEAD
 .col-md-9 {
 	margin-top: 1.5em;
 }
@@ -62,3 +67,23 @@ tbody tr:nth-child(odd) {
 .col-md-3 {
 	margin-top: 1.5em;
 }
+=======
+
+/* added from general to keep general a little neater */
+/*#quicknavbar {
+  margin: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  list-style-type: none;
+}
+
+#quicknavbar>ul>li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clear: both;
+}*/
+>>>>>>> 6895ba4594731f0649cdb96f662b9584c11a7056
