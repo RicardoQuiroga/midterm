@@ -4,6 +4,10 @@ body {
   background-color: black;
 }
 
+.head {
+  margin: 0;
+}
+
 .quicknav {
   float: left;
   height: 300px;
@@ -62,7 +66,7 @@ tbody tr:nth-child(odd) {
 
 
 /* added from general to keep general a little neater */
-#quicknavbar {
+/*#quicknavbar {
   margin: 5px;
   width: 100%;
   display: flex;
@@ -77,4 +81,4 @@ tbody tr:nth-child(odd) {
   justify-content: center;
   align-items: center;
   clear: both;
-}
+}*/

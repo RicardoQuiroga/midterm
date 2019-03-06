@@ -3,8 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<title>Discussion</title>
-	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/3/flatly/bootstrap.css">
+	
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/3/flatly/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/general.css">
 	<link rel="stylesheet" type="text/css" href="css/order.css">
 	<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
@@ -48,26 +49,96 @@
 							<input type="text" placeholder="12345" name = "zipinput" id="zipinput" class = "inputfield"><br>
 						</div>
 						<br>
+						
 						<div id = "checkboxinput">
-						    <input type="checkbox" class = "checkbox" name="breadbox[]" value="wholewheat">Whole Wheat<br>
-						    <input type="number" name="whole#" min="0" max = "5" value="0"><br>
-						    <input type="checkbox" class = "checkbox" name="breadbox[]" value="white">White Bread<br>
-						    <input type="number" name="white#" min="0" max = "5" value="0"><br>
-						    <input type="checkbox" class = "checkbox" name="breadbox[]" value="italian">Italian Bread<br>
-						    <input type="number" name="italian#" min="0" max = "5" value="0"><br>
-						    <input type="checkbox" class = "checkbox" name="breadbox[]" value="french">French Bread<br>
-						    <input type="number" name="french#" min="0" max = "5" value="0"><br>
-						    <input type="checkbox" class = "checkbox" name="breadbox[]" value="raisin">Raisin Bread<br>
-						    <input type="number" name="raisin#" min="0" max = "5" value="0"><br>
-						    <input type="checkbox" class = "checkbox" name="breadbox[]" value="sourdough">Sourdough Bread<br>
-						    <input type="number" name="sourdough#" min="0" max = "5" value="0"><br>
-						    <input type="checkbox" class = "checkbox" name="breadbox[]" value="cinammon">Cinnamon Bread<br>
-						    <input type="number" name="cinnamon#" min="0" max = "5" value="0"><br>
-						    <input type="checkbox" class = "checkbox" name="breadbox[]" value="multigrain">Multigrain Bread<br>
-						    <input type="number" name="multigrain#" min="0" max = "5" value="0"><br>
-						    <input type="checkbox" class = "checkbox" name="breadbox[]" value="ryepump">Rye/Pumpernickle Bread<br>
-						    <input type="number" name="ryepump#" min="0" max = "5" value="0"><br>
-						    <input type="submit" name="submit">
+							<div class = "columnGrouping">
+								<div class = "group">
+								    <input type="checkbox" class = "form-check-input" name="breadbox[]" value="wholewheat">Whole Wheat
+								    <select class="form-control" name = "wheatAmount" id="wheatAmount">
+								        <option>0</option>
+								        <option>1</option>
+								        <option>2</option>
+								        <option>3</option>
+								        <option>4</option>
+								        <option>5</option>
+								      </select> <br>
+								    <input type="checkbox" class = "form-check-input" name="breadbox[]" value="white">White Bread
+								    <select class="form-control" name = "whiteAmount" id="whiteAmount">
+								        <option>0</option>
+								        <option>1</option>
+								        <option>2</option>
+								        <option>3</option>
+								        <option>4</option>
+								        <option>5</option>
+								      </select> <br>
+								    <input type="checkbox" class = "form-check-input" name="breadbox[]" value="italian">Italian Bread
+								    <select class="form-control" name="italianAmount" id="italianAmount">
+								        <option>0</option>
+								        <option>1</option>
+								        <option>2</option>
+								        <option>3</option>
+								        <option>4</option>
+								        <option>5</option>
+								      </select> <br>
+								    <input type="checkbox" class = "form-check-input" name="breadbox[]" value="french">French Bread
+								    <select class="form-control" name="frenchAmount" id="frenchAmount">
+								        <option>0</option>
+								        <option>1</option>
+								        <option>2</option>
+								        <option>3</option>
+								        <option>4</option>
+								        <option>5</option>
+								      </select> <br>
+								    <input type="checkbox" class = "form-check-input" name="breadbox[]" value="raisin">Raisin Bread
+								    <select class="form-control" name="raisinAmount" id="raisinAmount">
+								        <option>0</option>
+								        <option>1</option>
+								        <option>2</option>
+								        <option>3</option>
+								        <option>4</option>
+								        <option>5</option>
+								      </select> <br>
+								  </div>
+								  <div class="group">
+								    <input type="checkbox" class = "form-check-input" name="breadbox[]" value="sourdough">Sourdough Bread
+								    <select class="form-control" name="sourdoughAmount" id="sourdoughAmount">
+								        <option>0</option>
+								        <option>1</option>
+								        <option>2</option>
+								        <option>3</option>
+								        <option>4</option>
+								        <option>5</option>
+								      </select> <br>
+								    <input type="checkbox" class = "form-check-input" name="breadbox[]" value="cinammon">Cinnamon Bread
+								    <select class="form-control" name = "cinnamonAmount" id="cinnamonAmount">
+								        <option>0</option>
+								        <option>1</option>
+								        <option>2</option>
+								        <option>3</option>
+								        <option>4</option>
+								        <option>5</option>
+								      </select> <br>
+								    <input type="checkbox" class = "form-check-input" name="breadbox[]" value="multigrain">Multigrain Bread
+								   <select class="form-control" name = "multigrainAmount" id="multigrainAmount">
+								        <option>0</option>
+								        <option>1</option>
+								        <option>2</option>
+								        <option>3</option>
+								        <option>4</option>
+								        <option>5</option>
+								      </select> <br>
+								    <input type="checkbox" class = "form-check-input" name="breadbox[]" value="ryepump">Rye/Pumpernickle Bread
+								    <select class="form-control" name = "ryepumpAmount" id="ryepumpAmount">
+								        <option>0</option>
+								        <option>1</option>
+								        <option>2</option>
+								        <option>3</option>
+								        <option>4</option>
+								        <option>5</option>
+								      </select> <br>
+								  </div>
+								</div>
+						    <input type="submit" name="submit" class="btn btn-primary">
 						</div>
 					</fieldset>
 				</form>
