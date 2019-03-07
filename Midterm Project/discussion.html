@@ -8,6 +8,8 @@
 	<link rel="stylesheet" type="text/css" href="css/general.css">
 	<link rel="stylesheet" type="text/css" href="css/discussion.css">
 	<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+
+	<script type = "text/javascript" src = "JavaScript/addComment.js"></script>
 </head>
 <body>
 	<div class="head">
@@ -27,25 +29,22 @@
 	</div>
 	<main>
 		<div class="main">
-
+			<div id = "comments">
 			<fieldset class = "comment">
 				<legend>Sample Name</legend>
 				<p>I am a troll, I do not like bread. Please ignore me.</p>
 			</fieldset>
 
-			<fieldset class = "comment">
+			<fieldset class = "comment" id = "lastComment">
 				<legend>Breadboy1994</legend>
 				<p>Bread is my life, I don't know how I'd live without bread. Thank you for the opportunity to talk about bread because all I eat is bread. </p>
 			</fieldset>
-
+			</div>
+			
 			<div class="commentdiv">
-				<form method="get" action="http://examples.funwebdev.com/process.php">
+				<form>
 					<fieldset class = "form-group">
 						<legend>Add your opinion:</legend>
-						<!--<label id="namelabel">Name:</label>
-						<input type="text" placeholder = "Name" name = "nameinput" id = "nameinput" class = "inputfield"><br><br>
-					    <label id="commentlabel">Comment:</label>
-					    <textarea name = "commentarea"></textarea><br>-->
 					    <div class="form-group">
 						    <label class="col-form-label" for="inputDefault">Name:</label>
   							<input type="text" class="form-control" placeholder="John Smith" id="inputDefault">
@@ -54,7 +53,7 @@
 						    <label for="commentTextarea">Comment:</label>
 						    <textarea class="form-control" id="commentTextarea" rows="3"></textarea>
 						</div>
-						    <button type="submit" class="btn btn-primary">Submit</button>
+						    <button type="button" class="btn btn-primary" onClick="AddComment()">Submit</button>
 						</div>		
 					</fieldset>
 
