@@ -8,16 +8,6 @@ body {
   margin: 0;
 }
 
-.quicknav {
-  float: left;
-  height: 300px;
-  width: 200px;
-  border-radius: 15px;
-  background-color: #272b30;
-  padding-left: 15px;
-  margin-left: 15px;
-}
-
 #newAddition {
 	background-image: url("../images/catalog_new.jpg");
 	background-size: cover;
@@ -40,50 +30,24 @@ body {
 	padding-bottom: 0.5em;
 }
 
-td {
-  padding: 10px;
-  border-bottom: solid 1px black;
-  padding-right: 1em;
+.panel {
+	background-color: rgb(200, 200, 200);
+	border: 0;
 }
 
-thead th {
-  text-align: center;
-  background-color: grey;
+#orderPanel {
+	background-color: white;
 }
 
-table {
-  background-color: darkgrey;
-}
-
-tbody tr:nth-child(odd) {
-  background-color: grey;
-}
-
-<<<<<<< HEAD
 .col-md-9 {
-	margin-top: 1.5em;
+	margin-top: 0.5em;
 }
 
 .col-md-3 {
-	margin-top: 1.5em;
-}
-=======
-
-/* added from general to keep general a little neater */
-/*#quicknavbar {
-  margin: 5px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  list-style-type: none;
+	margin-top: 0.5em;
 }
 
-#quicknavbar>ul>li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  clear: both;
-}*/
->>>>>>> 6895ba4594731f0649cdb96f662b9584c11a7056
+#quickBar {
+	color: white;
+	margin-top: 0.5em;
+}
