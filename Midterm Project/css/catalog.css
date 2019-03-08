@@ -51,3 +51,9 @@ body {
 	color: white;
 	margin-top: 0.5em;
 }
+
+.amount {
+  height: 20px;
+  width: 40px;
+  float: right;
+}

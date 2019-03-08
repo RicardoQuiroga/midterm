@@ -1,6 +1,8 @@
 body {
 	background-image: url("../images/background_index.jpg");
-	background-size: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .panel {
@@ -8,4 +10,14 @@ body {
 	margin-top: 2em;
 	margin-right: 2em;
 	padding: 0;
+}
+
+#mainEvent {
+background-image: url("../images/index_new.jpg");
+background-size: cover;
+height: 600px;
+margin: 0;
+border: none;
+background-position: center;
+background-repeat: no-repeat;
 }
