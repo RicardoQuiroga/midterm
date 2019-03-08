@@ -4,7 +4,6 @@ body {
 	color: black;
 }
 
-/* added from general to keep general a little neater */
 .main {
 	background-color: #272b30;
 	height: 80vh;
@@ -64,17 +63,6 @@ fieldset {
 	text-align: center;
 }
 
-/*fieldset.comment {
-	text-align: left;
-	margin: 30px 0 0 30px;
-	border-bottom: 1px solid white;
-	width: 90%;
-}
-
-fieldset.comment>legend {
-	text-align: left;
-}*/	
-
 label{
     display: inline-block;
     float: left;
@@ -90,10 +78,3 @@ input {
   text-align: left;
   color: white;
 }
-
-/*#submit {
-	display: flex;
-	vertical-align: center;
-	position: relative;
-	clear: left;
-}*/
