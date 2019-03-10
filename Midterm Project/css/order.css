@@ -4,6 +4,22 @@ body {
 	color: black;
 }
 
+label {
+	clear: left;
+	display: inline;
+	float: left;
+}
+
+input {
+	float: left;
+	clear: left;
+	display: inline;
+}
+
+fieldset {
+	margin: 30px;
+}
+
 .main {
 	background-color: #272b30;
 	height: 80vh;
@@ -50,31 +66,7 @@ body {
 	padding: 10px;	
 }
 
-label {
-	clear: left;
-	display: inline;
-	float: left;
-}
 
-input {
-	float: left;
-	clear: left;
-	display: inline;
-}
-
-
-ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  display: block;
-}
-
-fieldset {
-	margin: 30px;
-}
 
 .form-control {
 	width: 80px;

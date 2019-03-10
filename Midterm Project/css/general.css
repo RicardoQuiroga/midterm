@@ -2,20 +2,6 @@ html {
   height: 100%;
 }
 
-.head {
-  padding-top: 1em;
-  color: white;
-  text-align: center;
-  font-size: 100%;
-  background-color: rgba(58, 66, 44, .8);
-  margin-bottom: 15px;
-}
-
-.head>h1 {
-  font-size: 300%;
-  margin-top: 0;
-}
-
 li {
   margin-left: 1.5em;
   margin-right: 1.5em;
@@ -45,6 +31,20 @@ main {
   flex: 1;
 }
 
+.head {
+  padding-top: 1em;
+  color: white;
+  text-align: center;
+  font-size: 100%;
+  background-color: rgba(58, 66, 44, .8);
+  margin-bottom: 15px;
+}
+
+.head>h1 {
+  font-size: 300%;
+  margin-top: 0;
+}
+
 #nav1 {
   padding: 0;
   display: inline-block;
@@ -65,12 +65,3 @@ main {
 .body {
   margin: 30px;
 }
-
-/*ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  display: block;
-}*/
